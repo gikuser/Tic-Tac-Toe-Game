@@ -230,9 +230,9 @@ class Play : public Board
 
                         moveIndex++;
                         turn = PLAYER1;
-                    }
-                }
-            }
+			}
+		}
+	}
 if(this->gameOver()==false && moveIndex == side*side)
             {
                 showBoard();
